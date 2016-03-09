@@ -15,24 +15,51 @@ var viewer = (function () {
   }
 
   function open(src) {
-    $elViewerContent.append("<img src='" + src +"'>");
-    $elViewerImg = $elViewerContent.children("img");
-    windowResize();
-    $elViewer.fadeIn(250, function () {
-      _isOpen = true;
-      $elViewerClose.one("click", close);
-      $(document).one("keydown", function (e) {
-        if (e.which === 27) {
-          $elViewerClose.addClass("on");
-        }
-      });
-      $(document).one("keyup", function (e) { // Close with Escape key
-        if (e.which  === 27) {
-          $elViewerClose.removeClass("on");
-          close();
-        }
+
+    var preloader = new ImagePreloader();
+    preloader.queue(src);
+    preloader.preload().then(function () {
+      $elViewerContent.append("<img src='" + src +"'>");
+      $elViewerImg = $elViewerContent.children("img");
+      windowResize();
+      $elViewer.fadeIn(250, function () {
+        _isOpen = true;
+        $elViewerClose.one("click", close);
+        $(document).one("keydown", function (e) {
+          if (e.which === 27) {
+            $elViewerClose.addClass("on");
+          }
+        });
+        $(document).one("keyup", function (e) { // Close with Escape key
+          if (e.which  === 27) {
+            $elViewerClose.removeClass("on");
+            close();
+          }
+        });
       });
     });
+
+
+
+    // $elViewerContent.append("<img src='" + src +"'>");
+    // $elViewerImg = $elViewerContent.children("img");
+    // windowResize();
+    // $elViewer.fadeIn(250, function () {
+    //   _isOpen = true;
+    //   $elViewerClose.one("click", close);
+    //   $(document).one("keydown", function (e) {
+    //     if (e.which === 27) {
+    //       $elViewerClose.addClass("on");
+    //     }
+    //   });
+    //   $(document).one("keyup", function (e) { // Close with Escape key
+    //     if (e.which  === 27) {
+    //       $elViewerClose.removeClass("on");
+    //       close();
+    //     }
+    //   });
+    // });
+
   }
 
   function windowResize() {

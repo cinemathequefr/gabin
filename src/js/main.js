@@ -1,21 +1,28 @@
 
 
-
-var $thumbs = $(".thumbs");
-var imgPath = "http://cf.pasoliniroma.com/static/gabin/full/";
-
-
+_.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
+var template = _.template("<div class='column'><div class='item'><img class='thumbnail' data-id='{{id}}' src='http://cf.pasoliniroma.com/static/gabin/400x520/{{ id }}.jpg'></div></div>");
 
 viewer.init($(".viewer"));
 
-$thumbs.on("click", "img.thumbnail", function () {
-  var meta = $(this).data("meta");
-  console.log(meta);
-  
-  var imgSrc = imgPath + meta.id + ".jpg";
+$.getJSON("data/data.json", function (data) {
+  var $gallery = $(".gallery");
 
+  _(data)
+  .map(function (section) {
+    return _.map(section, function (item) {
+      return template(item);
+    }).join("");
+  })
+  .forEach(function (sectionHtml, i) {
+    $gallery.eq(i).append(sectionHtml);
+  });
 
-  // var $this = $(this);
-  // $this.parent().append("<p>" + $this.data("meta").text + "</p>");
-  viewer.open(imgSrc);
+  $gallery.on("click", "img", function () {
+    var id = $(this).data("id");
+    var imgSrc = "http://cf.pasoliniroma.com/static/gabin/full/" + id + ".jpg";
+    viewer.open(imgSrc);
+  });
+
+  $("body").fadeIn(500);
 });

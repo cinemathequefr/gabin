@@ -7,7 +7,7 @@ var viewer = (function () {
   var _isOpen = false;
 
   _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
-  var template = _.template('<h1>{{ title }}</h1><div>{{ text }}</div><hr><ul><li>Affichiste&nbsp;: {{ author }}</li><li>Date&nbsp;: {{ date }}</li><li>Pays&nbsp;: {{ country }}</li><li>Procédé&nbsp;: {{ medium }}</li><li>Dimensions&nbsp;: {{ size }}</li><li>Credits&nbsp;: {{ rights }}</li></ul>');
+  var template = _.template('<h1>{{ title }}</h1><div>{{ text }}</div><hr><ul><li>Affichiste&nbsp;: {{ author }}</li><li>Date&nbsp;: {{ date }}</li><li>Pays&nbsp;: {{ country }}</li><li>Procédé&nbsp;: {{ medium }}</li><li>Dimensions&nbsp;: {{ size }}</li><li>Droits&nbsp;: {{ rights }}</li></ul>');
 
   function init() {
     $elViewer = arguments[0];

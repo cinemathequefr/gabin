@@ -15,7 +15,6 @@ var viewer = (function () {
   }
 
   function open(src) {
-
     var preloader = new ImagePreloader();
     preloader.queue(src);
     preloader.preload().then(function () {
@@ -39,28 +38,8 @@ var viewer = (function () {
       });
     });
 
-
-
-    // $elViewerContent.append("<img src='" + src +"'>");
-    // $elViewerImg = $elViewerContent.children("img");
-    // windowResize();
-    // $elViewer.fadeIn(250, function () {
-    //   _isOpen = true;
-    //   $elViewerClose.one("click", close);
-    //   $(document).one("keydown", function (e) {
-    //     if (e.which === 27) {
-    //       $elViewerClose.addClass("on");
-    //     }
-    //   });
-    //   $(document).one("keyup", function (e) { // Close with Escape key
-    //     if (e.which  === 27) {
-    //       $elViewerClose.removeClass("on");
-    //       close();
-    //     }
-    //   });
-    // });
-
   }
+
 
   function windowResize() {
     var ww = $(window).width() - 24; // 2*12px margin

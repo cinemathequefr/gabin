@@ -2,8 +2,8 @@
   [
     {
       "id": 1,
-      "text": "",
-      "title": "Les Gaîtés de l'escadron",
+      "text": "<p>1932&nbsp;: Maurice Tourneur réalise un remake de son propre film sorti en 1913.</p><p>Jean Gabin débutant y interprète un militaire rebelle au sein d'un régiment malmené par un adjudant tyrannique. Seul Raimu est représenté sur l'affiche. Gabin n'y figure pas, et il apparaît en troisième position, derrière Fernandel, au générique.</p>",
+      "title": "Les Gaîtés de l'escadron (Maurice Tourneur)",
       "author": "Auteur inconnu",
       "date": "Date inconnue",
       "country": "France",
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "text": "",
-      "title": "Les Gaîtés de l'escadron",
+      "title": "Les Gaîtés de l'escadron (Maurice Tourneur)",
       "author": "Boris Grinsson",
       "date": "1945",
       "country": "France",
@@ -25,7 +25,7 @@
     {
       "id": 3,
       "text": "",
-      "title": "Du haut en bas",
+      "title": "Du haut en bas (Georg Wilhelm Pabst)",
       "author": "Jean-Adrien Mercier",
       "date": "1933",
       "country": "France",
@@ -36,7 +36,7 @@
     {
       "id": 4,
       "text": "",
-      "title": "Tunnel",
+      "title": "Tunnel (Curtis Bernhardt)",
       "author": "S. Markowicz",
       "date": "Date inconnue",
       "country": "France",
@@ -47,7 +47,7 @@
     {
       "id": 5,
       "text": "",
-      "title": "Golgotha",
+      "title": "Golgotha (Julien Duvivier)",
       "author": "Constantin Belinsky",
       "date": "Date inconnue",
       "country": "France",
@@ -58,7 +58,7 @@
     {
       "id": 6,
       "text": "",
-      "title": "Golgotha",
+      "title": "Golgotha (Julien Duvivier)",
       "author": "Auteur inconnu",
       "date": "Date inconnue",
       "country": "France",
@@ -69,7 +69,7 @@
     {
       "id": 7,
       "text": "",
-      "title": "Maria Chapdelaine",
+      "title": "Maria Chapdelaine (Julien Duvivier)",
       "author": "1934",
       "date": "France",
       "country": "Offset - Couleur",
@@ -80,7 +80,7 @@
     {
       "id": 8,
       "text": "",
-      "title": "Maria Chapdelaine",
+      "title": "Maria Chapdelaine (Julien Duvivier)",
       "author": "Georges Dastor",
       "date": "1945",
       "country": "France",
@@ -91,7 +91,7 @@
     {
       "id": 9,
       "text": "",
-      "title": "Variétés",
+      "title": "Variétés (Nicolas Farkas)",
       "author": "Auteur inconnu",
       "date": "Date inconnue",
       "country": "Belgique",
@@ -102,7 +102,7 @@
     {
       "id": 10,
       "text": "",
-      "title": "Variétés",
+      "title": "Variétés (Nicolas Farkas)",
       "author": "Auteur inconnu",
       "date": "Date inconnue",
       "country": "France",

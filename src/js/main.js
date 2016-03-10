@@ -1,8 +1,7 @@
 
 
 _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
-var template = _.template("<div class='column'><div class='item'><img class='thumbnail' data-id='{{id}}' src='http://cf.pasoliniroma.com/static/gabin/300x390/{{ id }}.jpg'></div></div>");
-
+var template = _.template('<div class="column"><div class="item"><img class="thumbnail" data-id="{{id}}" src="http://cf.pasoliniroma.com/static/gabin/300x390/{{ id }}.jpg" alt="{{ title }}" title="{{ title }}"></div></div>');
 viewer.init($(".viewer"));
 
 $.getJSON("data/data.json", function (data) {

@@ -50,8 +50,8 @@ var viewer = (function () {
 
 
   function windowResize() {
-    var ww = $(window).width() - 24; // 2*12px margin
-    // var wh = $(window).height() - 80; // 2*12px margin + some height for caption
+    var ww = ($(window).width() * 2 / 3) - 24; // 2*12px margin
+    // var ww = $(window).width() - 24; // 2*12px margin
     var wh = $(window).height() - 24;
     var f = fitInBox($elViewerImg[0].naturalWidth, $elViewerImg[0].naturalHeight, ww, wh, true);
 
@@ -59,9 +59,8 @@ var viewer = (function () {
       width: f.width + "px",
       height: f.height + "px",
       position: "absolute",
-      top: "12px",
-      // left: ((ww - f.width) / 2) + "px"
-      left: 0
+      top: 12 + ((wh - f.height) / 2) + "px",
+      left: 12 + ((ww - f.width) / 2) + "px"
     });
 
   }

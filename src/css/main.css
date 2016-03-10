@@ -5,7 +5,9 @@ html {
 body {
   font-family: "Source Sans Pro", sans-serif;
   height: 100%;
-  background-color: #fff; color: #222;
+  /*background-color: #fff;*/
+  background-color: rgb(245, 245, 255);
+  color: #222;
 }
 
 .row {
@@ -14,6 +16,10 @@ body {
 
 section {
   margin: 36px 0;
+}
+
+hr {
+  border-color: #999;
 }
 
 h1 {
@@ -104,7 +110,9 @@ strong {
 .viewerInfo {
   padding: 72px 24px 24px 24px;
   height: 100vh;
-  background-color: #eee; color: #444;
+  background-color: rgba(252, 252, 255, 0.85);
+  /*background-color: #eee;*/
+  color: #333;
 }
 
 .viewerInfo h1 {

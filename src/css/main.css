@@ -5,8 +5,7 @@ html {
 body {
   font-family: "Source Sans Pro", sans-serif;
   height: 100%;
-  /*background-color: #fff;*/
-  background-color: rgb(245, 245, 255);
+  background-color: #fff;
   color: #222;
 }
 
@@ -38,16 +37,12 @@ p {
   margin: 0 0 0rem 0;
 }
 
-ul {
+ul {http://cf.pasoliniroma.com/static/gabin/title.jpg
   margin: 0; padding:0; list-style-type: none;
 }
 
 strong {
   font-weight: 600;
-}
-
-
-.article {
 }
 
 .gallery {

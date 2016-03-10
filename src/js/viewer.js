@@ -6,19 +6,27 @@ var viewer = (function () {
   var $elViewerImg;
   var _isOpen = false;
 
+  _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
+  var template = _.template('<h1>{{ title }}</h1><div>{{ text }}</div><hr><ul><li>Affichiste&nbsp;: {{ author }}</li><li>Date&nbsp;: {{ date }}</li><li>Pays&nbsp;: {{ country }}</li><li>Procédé&nbsp;: {{ medium }}</li><li>Dimensions&nbsp;: {{ size }}</li><li>Credits&nbsp;: {{ rights }}</li></ul>');
+
   function init() {
     $elViewer = arguments[0];
-    $elViewer.append("<div class='viewerContent'></div><div class='viewerClose'></div>");
-    $elViewerContent = $elViewer.children(".viewerContent");
+    // $elViewer.append("<div class='viewerContent'></div><div class='viewerClose'></div>");
+    $elViewer.append("<div class='row'><div class='viewerContent hide-for-small-only medium-8 columns'></div><div class='viewerInfo small-12 medium-4 columns'></div></div><div class='viewerClose'></div>");
+    $elViewerContent = $elViewer.find(".viewerContent");
+    $elViewerInfo = $elViewer.find(".viewerInfo");
     $elViewerClose = $elViewer.children(".viewerClose");
     $(window).on("resize", windowResize);
   }
 
-  function open(src) {
+  function open(item) {
     var preloader = new ImagePreloader();
+    var src = "http://cf.pasoliniroma.com/static/gabin/full/" + item.id + ".jpg";
     preloader.queue(src);
     preloader.preload().then(function () {
-      $elViewerContent.append("<img src='" + src +"'>");
+      $elViewerContent.html("<img src='" + src +"'>");
+      $elViewerInfo.html(template(item));
+
       $elViewerImg = $elViewerContent.children("img");
       windowResize();
       $elViewer.fadeIn(250, function () {
@@ -29,21 +37,22 @@ var viewer = (function () {
             $elViewerClose.addClass("on");
           }
         });
-        $(document).one("keyup", function (e) { // Close with Escape key
+        $(document).on("keyup", function (e) { // Close with Escape key
           if (e.which  === 27) {
             $elViewerClose.removeClass("on");
+            $(document).off("keyup");
             close();
           }
         });
       });
     });
-
   }
 
 
   function windowResize() {
     var ww = $(window).width() - 24; // 2*12px margin
-    var wh = $(window).height() - 80; // 2*12px margin + some height for caption
+    // var wh = $(window).height() - 80; // 2*12px margin + some height for caption
+    var wh = $(window).height() - 24;
     var f = fitInBox($elViewerImg[0].naturalWidth, $elViewerImg[0].naturalHeight, ww, wh, true);
 
     $elViewerImg.css({
@@ -51,7 +60,8 @@ var viewer = (function () {
       height: f.height + "px",
       position: "absolute",
       top: "12px",
-      left: ((ww - f.width) / 2) + "px"
+      // left: ((ww - f.width) / 2) + "px"
+      left: 0
     });
 
   }

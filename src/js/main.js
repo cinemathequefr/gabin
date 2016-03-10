@@ -18,10 +18,8 @@ $.getJSON("data/data.json", function (data) {
   });
 
   $gallery.on("click", "img", function () {
-    var id = $(this).data("id");
-    var imgSrc = "http://cf.pasoliniroma.com/static/gabin/full/" + id + ".jpg";
-    viewer.open(imgSrc);
+    viewer.open(_(data).flatten().find({ id: $(this).data("id") }));
   });
 
-  $("body").fadeIn(500);
+  $(document.body).fadeIn(500);
 });

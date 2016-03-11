@@ -24,6 +24,10 @@ var viewer = (function () {
     var src = "http://cf.pasoliniroma.com/static/gabin/full/" + item.id + ".jpg";
     preloader.queue(src);
     preloader.preload().then(function () {
+
+      // $(document.body).css({ position: "fixed" });
+
+
       $elViewerContent.html("<img src='" + src +"'>");
       $elViewerInfo.html(template(item));
 

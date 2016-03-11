@@ -18,7 +18,6 @@ $.getJSON("data/data.json", function (data) {
   });
 
   $gallery.on("click", "img", function () {
-    console.log("Clicked");
     viewer.open(_(data).flatten().find({ id: $(this).data("id") }));
   });
 

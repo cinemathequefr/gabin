@@ -33,8 +33,9 @@ var viewer = (function () {
       $elViewer.fadeIn(250, function () {
         _isOpen = true;
         $elViewerClose.one("click", close);
-        $(document).one("keydown", function (e) {
+        $(document).on("keydown", function (e) {
           if (e.which === 27) {
+            $(document).off("keydown");
             $elViewerClose.addClass("on");
           }
         });

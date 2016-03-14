@@ -474,9 +474,19 @@
       "medium": "Offset – Couleur",
       "size": "80 × 60 cm",
       "rights": "Droits réservés"
+    },
+    {
+      "id": 96,
+      "text": "",
+      "title": "The Impostor / L'Imposteur (Julien Duvivier)",
+      "author": "René Lefebvre",
+      "date": "Date inconnue",
+      "country": "France",
+      "medium": "Lithographe - Couleur",
+      "size": "80 × 60 cm",
+      "rights": "Droits réservés"
     }
   ],
-
   [
     {
       "id": 43,
@@ -598,6 +608,28 @@
       "medium": "Lithographie&nbsp;; Offset – Couleur",
       "size": "165 × 126 cm",
       "rights": "Droits réservés"
+    },
+    {
+      "id": 97,
+      "text": "",
+      "title": "French Cancan (Jean Renoir)",
+      "author": "René Péron",
+      "date": "1954",
+      "country": "France",
+      "medium": "Lithographie - Couleur",
+      "size": "162 × 119 cm",
+      "rights": "René Péron © René Péron"
+    },
+    {
+      "id": 99,
+      "text": "",
+      "title": "French Cancan (Jean Renoir)",
+      "author": "Raymond Gid",
+      "date": "1979",
+      "country": "France",
+      "medium": "Lithographie - Couleur",
+      "size": "80 × 60 cm",
+      "rights": "Raymond Gid © ADAGP"
     },
     {
       "id": 92,
@@ -767,6 +799,17 @@
       "rights": "Droits réservés"
     },
     {
+      "id": 98,
+      "text": "",
+      "title": "Maigret tend un piège (Jean Delannoy)",
+      "author": "Gilbert Allard",
+      "date": "1958",
+      "country": "France",
+      "medium": "Offset - Couleur",
+      "size": "167 × 126 cm",
+      "rights": "Gilbert Allard © Gilbert Allard"
+    },
+    {
       "id": 68,
       "text": "<p>Sur cette affiche de la première partie des <em>Misérables</em>, l'essentiel du casting est représenté, chacun dans un style différent pour mieux distinguer chaque personnage. Gabin, vieilli, cheveux blancs, domine l'espace et ses partenaires en Jean Valjean imposant.</p>",
       "title": "Les Misérables – 1ère époque (Jean-Paul Le Chanois)",
@@ -919,6 +962,17 @@
       "medium": "Lithographie – Couleur",
       "size": "320 × 160 cm",
       "rights": "Droits réservés"
+    },
+    {
+      "id": 100,
+      "text": "",
+      "title": "Le Sang à la tête (Gilles Grangier)",
+      "author": "",
+      "date": "",
+      "country": "",
+      "medium": "",
+      "size": "",
+      "rights": ""
     },
     {
       "id": 82,

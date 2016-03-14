@@ -24,10 +24,7 @@ var viewer = (function () {
     var src = "http://cf.pasoliniroma.com/static/gabin/full/" + item.id + ".jpg";
     preloader.queue(src);
     preloader.preload().then(function () {
-
-      // $(document.body).css({ position: "fixed" });
-
-
+      $(document.body).addClass("noscroll");
       $elViewerContent.html("<img src='" + src +"'>");
       $elViewerInfo.html(template(item));
 
@@ -71,6 +68,7 @@ var viewer = (function () {
 
 
   function close() {
+    $(document.body).removeClass("noscroll");
     $elViewer.fadeOut(250, function () {
       $elViewerContent.empty();
       _isOpen = false;

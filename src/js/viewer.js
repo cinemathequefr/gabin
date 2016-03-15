@@ -22,12 +22,11 @@ var viewer = (function () {
   function open(item) {
     var preloader = new ImagePreloader();
     var src = "http://cf.pasoliniroma.com/static/gabin/full/" + item.id + ".jpg";
+    $(document.body).addClass("noscroll");
     preloader.queue(src);
     preloader.preload().then(function () {
-      $(document.body).addClass("noscroll");
       $elViewerContent.html("<img src='" + src +"'>");
       $elViewerInfo.html(template(item));
-
       $elViewerImg = $elViewerContent.children("img");
       windowResize();
       $elViewer.fadeIn(250, function () {

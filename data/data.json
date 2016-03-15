@@ -477,7 +477,7 @@
     },
     {
       "id": 96,
-      "text": "",
+      "text": "<p>Rouge sang, comme un rappel symbolique de la blessure mortelle de Dennis Moore, l'affiche française de <em>The Impostor</em> met largement en avant la star Gabin. Le titre en anglais, entre parenthèses sous le titre français, rappelle l'origine américaine du film, de même que la typographie, plus proche des standards hollywoodiens que des habitudes françaises. Réalisé aux États-Unis pendant la guerre par Duvivier, ce film de propagande pour la France Libre est plus qu'un écho à <em>La Bandera</em>, que les deux hommes avaient tourné ensemble en 1935. À noter que Gabin reniera le film pour ses incohérences, au point de refuser de prêter sa voix pour la version française. C'est finalement Robert Dalban qui le doublera.</p>",
       "title": "The Impostor / L'Imposteur (Julien Duvivier)",
       "author": "René Lefebvre",
       "date": "Date inconnue",
@@ -542,6 +542,17 @@
       "medium": "Offset – Couleur",
       "size": "89 × 68 cm",
       "rights": "Droits réservés"
+    },
+    {
+      "id": 101,
+      "text": "",
+      "title": "La Nuit est mon royaume (Georges Lacombe)",
+      "author": "René Péron",
+      "date": "Date inconnue",
+      "country": "France",
+      "medium": "Lithographie - Couleur",
+      "size": "164 × 123 cm",
+      "rights": "René Péron © René Péron"
     },
     {
       "id": 48,
@@ -611,7 +622,7 @@
     },
     {
       "id": 97,
-      "text": "",
+      "text": "<p>Reléguée au second plan, la figure de Jean Gabin est délaissée au profit de Françoise Arnoul, manière pour l'affichiste de miser sur la jeunesse et la fraîcheur de l'actrice, tout en introduisant une discrète touche d'érotisme propre au French Cancan. Les tons bleus, blancs et rouges de l'affiche, déclinés jusque dans la typographie du titre, rappellent évidemment le caractère foncièrement français, et parisien, du contexte du film.</p>",
       "title": "French Cancan (Jean Renoir)",
       "author": "René Péron",
       "date": "1954",
@@ -622,7 +633,7 @@
     },
     {
       "id": 99,
-      "text": "",
+      "text": "<p>Raymond Gid, célèbre pour ses collaborations avec Clouzot et Melville, se retire du métier d'affichiste en 1961 pour se consacrer exclusivement à celui de typographe. En 1979, il réédite douze de ses plus belles affiches, auxquelles il adjoint deux créations récentes, en hommage aux <em>Oiseaux</em> de Hitchcock et à <em>French Cancan</em> de Renoir. Fidèle à son style elliptique, Gid exclut toute représentation réaliste du casting, et donc de Gabin, préférant se concentrer sur la figuration stylisée des jambes d'une meneuse de revue.</p>",
       "title": "French Cancan (Jean Renoir)",
       "author": "Raymond Gid",
       "date": "1979",
@@ -800,7 +811,7 @@
     },
     {
       "id": 98,
-      "text": "",
+      "text": "<p>Ostensiblement mise en avant, la pipe de Maigret, tenue ici comme on brandirait une arme, est utilisée comme métonymie du personnage. À l'instar de son pardessus et de son chapeau, la pipe fait partie de la signature iconique du héros de Simenon. Gabin, dessiné au second plan, est vieilli par l'affichiste, qui accentue à dessein les traits et rides de l'acteur comme pour mieux encore coller au personnage. Seule discrète fantaisie chromatique de cette affiche, le bleu des yeux de Gabin vient illuminer son regard.</p>",
       "title": "Maigret tend un piège (Jean Delannoy)",
       "author": "Gilbert Allard",
       "date": "1958",
@@ -965,14 +976,14 @@
     },
     {
       "id": 100,
-      "text": "",
+      "text": "<p>Adepte d'un style pop et coloré, la dessinatrice polonaise Hanna Bodnar s'est principalement distinguée dans l'illustration pour la jeunesse. À l'opposé de son style naturel, elle signe ici une affiche ténébreuse, parfaitement dans le ton du roman de Simenon et du script de Michel Audiard. Gabin, isolé dans une lande faite d'aplats gris, est éclairé par un énorme soleil noir, présage d'une destinée funeste.</p>",
       "title": "Le Sang à la tête (Gilles Grangier)",
-      "author": "",
-      "date": "",
-      "country": "",
-      "medium": "",
-      "size": "",
-      "rights": ""
+      "author": "Hanna Bodnar",
+      "date": "1958",
+      "country": "Pologne",
+      "medium": "Offset - Couleur",
+      "size": "55 × 80 cm",
+      "rights": "Droits réservés"
     },
     {
       "id": 82,

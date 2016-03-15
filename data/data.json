@@ -545,7 +545,7 @@
     },
     {
       "id": 101,
-      "text": "",
+      "text": "<p>Pour illustrer cette réalisation de Georges Lacombe, René Péron propose une affiche particulièrement sombre, en plein accord avec le sujet du film&nbsp;: Gabin y interprète un cheminot devenu aveugle qui retrouvera l'espoir dans un centre de rééducation.</p>",
       "title": "La Nuit est mon royaume (Georges Lacombe)",
       "author": "René Péron",
       "date": "Date inconnue",
@@ -731,6 +731,17 @@
       "rights": "Jean Mascii © ADAGP, 2016"
     },
     {
+      "id": 100,
+      "text": "<p>Adepte d'un style pop et coloré, la dessinatrice polonaise Hanna Bodnar s'est principalement distinguée dans l'illustration pour la jeunesse. À l'opposé de son style naturel, elle signe ici une affiche ténébreuse, parfaitement dans le ton du roman de Simenon et du script de Michel Audiard. Gabin, isolé dans une lande faite d'aplats gris, est éclairé par un énorme soleil noir, présage d'une destinée funeste.</p>",
+      "title": "Le Sang à la tête (Gilles Grangier)",
+      "author": "Hanna Bodnar",
+      "date": "1958",
+      "country": "Pologne",
+      "medium": "Offset - Couleur",
+      "size": "55 × 80 cm",
+      "rights": "Droits réservés"
+    },
+    {
       "id": 61,
       "text": "<p>Pour cette adaptation d'un roman de Simenon, l'affichiste a dessiné Gabin dans un environnement très sombre. Son nom et le titre du film se détachent d'autant mieux, en rouge écarlate. L'acteur, en chapeau et pardessus, est représenté avec un visage préoccupé, à l'image de son personnage quitté par sa femme – la silhouette sur le pont, en compagnie de son amant.</p>",
       "title": "Le Sang à la tête (Gilles Grangier)",
@@ -854,6 +865,17 @@
       "rights": "René Ferracci © ADAGP, 2016"
     },
     {
+      "id": 102,
+      "text": "<p>Devant ce cadre aux bordures dorées trône la figure du patriarche, en une évidente allégorie du scénario. Jean Gabin est l'incarnation parfaite de ce magnat de la presse et de l'industrie qui s'est élevé peu à peu au sein de la grande bourgeoisie. Son visage aux traits sévères se ferme dans une expression de <em>pater familias</em> inflexible. La rigueur est renforcée par le costume sombre et la Légion d'honneur qu'il porte haut, dans une attitude pleine d'assurance et d'autorité. Derrière lui, toute la distribution, famille et collaborateurs eux-mêmes décorés de médailles, lui voue allégeance. En arrière-plan, l'esquisse du Panthéon achève d'asseoir le sentiment de puissance et de respectabilité qu'il dégage.</p>",
+      "title": "Les Grandes familles (Denys de La Patellière)",
+      "author": "René Péron",
+      "date": "Date inconnue",
+      "country": "France",
+      "medium": "Lithographie - Couleur",
+      "size": "167 × 122 cm",
+      "rights": "René Péron © René Péron"
+    },
+    {
       "id": 71,
       "text": "<p>Gabin est représenté au centre de ce montage de photos, découpées et collées façon journaux déchirés. Le fond vichy évoque une nappe de bistrot, cadre de l'intrigue. Malgré son rôle de clochard, Gabin barbu garde une certaine prestance. Le film, réalisé d'après une idée originale de l'acteur, crédité pour l'occasion sous son nom «&nbsp;civil&nbsp;» de Jean Moncorgé, lui vaut l'Ours d'argent en 1959 à Berlin.</p>",
       "title": "Le Clochard / Archimède le clochard (Gilles Grangier)",
@@ -972,17 +994,6 @@
       "country": "France",
       "medium": "Lithographie – Couleur",
       "size": "320 × 160 cm",
-      "rights": "Droits réservés"
-    },
-    {
-      "id": 100,
-      "text": "<p>Adepte d'un style pop et coloré, la dessinatrice polonaise Hanna Bodnar s'est principalement distinguée dans l'illustration pour la jeunesse. À l'opposé de son style naturel, elle signe ici une affiche ténébreuse, parfaitement dans le ton du roman de Simenon et du script de Michel Audiard. Gabin, isolé dans une lande faite d'aplats gris, est éclairé par un énorme soleil noir, présage d'une destinée funeste.</p>",
-      "title": "Le Sang à la tête (Gilles Grangier)",
-      "author": "Hanna Bodnar",
-      "date": "1958",
-      "country": "Pologne",
-      "medium": "Offset - Couleur",
-      "size": "55 × 80 cm",
       "rights": "Droits réservés"
     },
     {
